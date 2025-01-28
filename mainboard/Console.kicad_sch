@@ -1,0 +1,441 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "10b20c6b-8045-46d1-a965-0d7dd9a1b5fa")
+	(paper "A4")
+	(title_block
+		(title "TI-99/22")
+		(date "2023-01-21")
+		(rev "0.96")
+		(company "Dan Werner - https://github.com/danwerner21/ti99_22")
+		(comment 1 "Schematic for Keyboard, Joystick and Cassette port.")
+		(comment 3 "was based on the HackMac KiCAD Design")
+		(comment 4 "Based Robert Krenicki's design which")
+		(comment 5 "Original - https://github.com/rkrenicki/TI99-Motherboard")
+	)
+	(lib_symbols)
+	(sheet
+		(at 266.7 21.59)
+		(size 15.24 137.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-0000560691d6")
+		(property "Sheetname" "GROM-IO-Port"
+			(at 266.7 20.7514 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GROM-IO-Port.kicad_sch"
+			(at 266.7 159.4362 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Console"
+				(path "/10b20c6b-8045-46d1-a965-0d7dd9a1b5fa"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 132.08)
+		(size 26.67 58.42)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005607313d")
+		(property "Sheetname" "8Bit16BitSwitch"
+			(at 50.8 131.2414 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "8bit16bitSwitch.kicad_sch"
+			(at 50.8 191.1862 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Console"
+				(path "/10b20c6b-8045-46d1-a965-0d7dd9a1b5fa"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102.87 163.83)
+		(size 27.94 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-000056079ced")
+		(property "Sheetname" "GROM-Logic"
+			(at 102.87 162.9914 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GROM-Logic.kicad_sch"
+			(at 102.87 191.1862 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Console"
+				(path "/10b20c6b-8045-46d1-a965-0d7dd9a1b5fa"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 31.75)
+		(size 27.94 36.83)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005607ac3b")
+		(property "Sheetname" "AddressDecoding"
+			(at 50.8 30.9114 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AddressDecoding.kicad_sch"
+			(at 50.8 69.2662 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Console"
+				(path "/10b20c6b-8045-46d1-a965-0d7dd9a1b5fa"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 15.24)
+		(size 15.24 175.26)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-000056085f00")
+		(property "Sheetname" "CPU"
+			(at 15.24 14.4014 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CPU.kicad_sch"
+			(at 15.24 191.1862 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Console"
+				(path "/10b20c6b-8045-46d1-a965-0d7dd9a1b5fa"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 154.94 25.4)
+		(size 33.02 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-0000560e4e44")
+		(property "Sheetname" "Video"
+			(at 154.94 24.5614 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Video.kicad_sch"
+			(at 154.94 55.2962 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Console"
+				(path "/10b20c6b-8045-46d1-a965-0d7dd9a1b5fa"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102.87 132.08)
+		(size 27.94 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-0000560f49b9")
+		(property "Sheetname" "Power"
+			(at 102.87 131.2414 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 102.87 155.6262 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Console"
+				(path "/10b20c6b-8045-46d1-a965-0d7dd9a1b5fa"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 213.36 25.4)
+		(size 27.94 44.45)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005613dcca")
+		(property "Sheetname" "Keyboard"
+			(at 213.36 24.5614 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Keyboard.kicad_sch"
+			(at 213.36 70.5362 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Console"
+				(path "/10b20c6b-8045-46d1-a965-0d7dd9a1b5fa"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 25.4)
+		(size 27.94 43.18)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-0000561cdf3b")
+		(property "Sheetname" "ROM/RAM/Sound"
+			(at 106.68 24.5614 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ROM-RAM-Sound.kicad_sch"
+			(at 106.68 69.2662 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Console"
+				(path "/10b20c6b-8045-46d1-a965-0d7dd9a1b5fa"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 189.23 90.17)
+		(size 13.97 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0479bcf4-aa47-4c0e-84b6-cb1b42828ccd")
+		(property "Sheetname" "Onboard-banked-rom"
+			(at 189.23 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "onboardrom.kicad_sch"
+			(at 189.23 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Console"
+				(path "/10b20c6b-8045-46d1-a965-0d7dd9a1b5fa"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 53.848 87.376)
+		(size 21.59 18.288)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6ebf012d-4946-4653-a76a-c2c448779487")
+		(property "Sheetname" "Cassette"
+			(at 53.848 86.6644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Cassette.kicad_sch"
+			(at 53.848 106.2486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Console"
+				(path "/10b20c6b-8045-46d1-a965-0d7dd9a1b5fa"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
