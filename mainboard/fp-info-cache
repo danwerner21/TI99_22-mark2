@@ -1,4 +1,4 @@
-24343647318025357
+24345385431821930
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -54824,6 +54824,13 @@ STD_DDW_CAP
 2
 2
 Custom
+STD_DDW_CARDEDGE60
+
+
+0
+0
+0
+Custom
 STD_DDW_CARDEDGE_34FEMALE
 
 
@@ -54940,8 +54947,8 @@ STD_DDW_LED5
 
 
 0
-0
-0
+2
+2
 Custom
 STD_DDW_PCAP
 
