@@ -6669,7 +6669,7 @@
 				)
 			)
 		)
-		(symbol "Connector:Screw_Terminal_01x05"
+		(symbol "Connector:Screw_Terminal_01x06"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -6683,8 +6683,8 @@
 					)
 				)
 			)
-			(property "Value" "Screw_Terminal_01x05"
-				(at 0 -7.62 0)
+			(property "Value" "Screw_Terminal_01x06"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6709,7 +6709,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic screw terminal, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6736,16 +6736,27 @@
 					(hide yes)
 				)
 			)
-			(symbol "Screw_Terminal_01x05_1_1"
+			(symbol "Screw_Terminal_01x06_1_1"
 				(rectangle
 					(start -1.27 6.35)
-					(end 1.27 -6.35)
+					(end 1.27 -8.89)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
+					)
+				)
+				(circle
+					(center 0 -7.62)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(circle
@@ -6762,6 +6773,18 @@
 				(circle
 					(center 0 -2.54)
 					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -7.2898) (xy 0.3302 -8.128)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -6821,6 +6844,18 @@
 				(polyline
 					(pts
 						(xy -0.5334 5.4102) (xy 0.3302 4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -7.112) (xy 0.508 -7.9502)
 					)
 					(stroke
 						(width 0.1524)
@@ -7006,6 +7041,24 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -19265,6 +19318,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 34.29 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "425f42b4-61ca-4b74-b3ba-a3af73f67248")
+		(property "Reference" "#PWR0244"
+			(at 34.29 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.29 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e78b442-c537-4add-9af3-0a8ce326e0a6")
+		)
+		(instances
+			(project "Console"
+				(path "/10b20c6b-8045-46d1-a965-0d7dd9a1b5fa/00000000-0000-0000-0000-0000560f49b9"
+					(reference "#PWR0244")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 43.18 53.34 270)
 		(unit 1)
@@ -20344,7 +20463,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x05")
+		(lib_id "Connector:Screw_Terminal_01x06")
 		(at 39.37 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20354,7 +20473,7 @@
 		(fields_autoplaced yes)
 		(uuid "65837b6f-68cd-4ecf-b39b-dbba6eebf43d")
 		(property "Reference" "J19"
-			(at 41.91 142.2399 0)
+			(at 41.91 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20362,8 +20481,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x05"
-			(at 41.91 144.7799 0)
+		(property "Value" "Screw_Terminal_01x06"
+			(at 41.91 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20371,7 +20490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00004_1x05_P5.00mm_Horizontal"
+		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00005_1x06_P5.00mm_Horizontal"
 			(at 39.37 143.51 0)
 			(effects
 				(font
@@ -20389,7 +20508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 39.37 143.51 0)
 			(effects
 				(font
@@ -20412,6 +20531,9 @@
 		)
 		(pin "3"
 			(uuid "45480f69-3bd3-4074-87d5-5fe54ca75006")
+		)
+		(pin "6"
+			(uuid "15d1403f-6756-4694-b716-96c4021ae8f4")
 		)
 		(instances
 			(project ""

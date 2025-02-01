@@ -12915,28 +12915,6 @@
 	)
 	(global_label "SNDIN"
 		(shape input)
-		(at 353.06 30.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "5878002a-789a-4f2f-85bb-77ea615d0aaf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 362.7511 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SNDIN"
-		(shape input)
 		(at 208.28 31.75 0)
 		(fields_autoplaced yes)
 		(effects

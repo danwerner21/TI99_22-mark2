@@ -1,4 +1,4 @@
-24345385431821930
+24347124178058200
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -54796,6 +54796,13 @@ BUSPC_HOST
 62
 62
 Custom
+CUI_RCJ-047
+
+
+0
+2
+2
+Custom
 DDW_STD_RTCCRYSTAL
 
 
@@ -54828,8 +54835,8 @@ STD_DDW_CARDEDGE60
 
 
 0
-0
-0
+60
+60
 Custom
 STD_DDW_CARDEDGE_34FEMALE
 
